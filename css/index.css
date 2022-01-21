@@ -271,6 +271,7 @@ table {
   .products-item,
   .contact--person {
     width: 49.99999%;
+    margin-top: 20px;
   }
 }
 
