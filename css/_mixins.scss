@@ -1,0 +1,28 @@
+@mixin flex-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin title {
+    font-size: $fz-18;
+    letter-spacing: 3px;
+}
+
+@mixin mx-10 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@mixin mx-40 {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+@mixin img {
+    width: 100%;
+    height: auto;
+}
+
+@mixin bg-hover {
+    background-color: #f1f2f3;
+}

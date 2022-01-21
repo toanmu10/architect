@@ -1,0 +1,27 @@
+@media (min-width: 601px)and (max-width: 991px) {
+    .products-item,
+    .contact--person {
+        width: 49.99999%;
+    }
+}
+
+@media (max-width:600.999px) {
+    .header-top {
+        &__contact {
+            display: none;
+        }
+    }
+    .banner-text {
+        span:last-child {
+            display: none;
+        }
+    }
+    .products-item,
+    .contact--person {
+        width: 99.99999%;
+    }
+    .item,
+    .contact--person {
+        margin-top: 20px;
+    }
+}
